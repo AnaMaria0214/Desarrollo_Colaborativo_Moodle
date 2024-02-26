@@ -10,41 +10,25 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles.css">
     <script src="./js/hook/guardian.js"></script>
   </head>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">MENU</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="plate of food"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
-  </header>
+  
   <body>
+    <ul class="nav justify-content-end m-3">
+      <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+          <button class="btn btn-danger" id="logOut">Log out</button>
+      </li>
+  </ul>
     <!-- carousel -->
     <div id="carouselExampleIndicators" class="carousel slide">
       <div class="carousel-indicators">
@@ -57,7 +41,7 @@
           <img src="https://www.recetas-ecuatorianas.com/base/stock/Post/45-image-2-el-cuy-asado-en-ecuador/45-image-2-el-cuy-asado-en-ecuador_huge.jpg" class="d-block w-100" alt="..."  style="width:auto;height:50vh">
         </div>
         <div class="carousel-item">
-          <img src="https://gluc.mx/u/fotografias/m/2020/5/6/f685x385-26621_64314_5050.jpg" class="d-block w-100" alt="..." style="width:auto;height:50vh">
+          <img src="https://www.cucinare.tv/wp-content/uploads/2020/04/Cucarachas.jpg" class="d-block w-100" alt="..." style="width:auto;height:50vh">
         </div>
         <div class="carousel-item">
           <img src="https://img.travesiasdigital.com/2019/10/comida-rara-sannakji.jpg" class="d-block w-100" alt="..." style="width:auto;height:50vh">
@@ -152,5 +136,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/logOut.js"></script>
   </body>
 </html>
